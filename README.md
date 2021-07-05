@@ -7,8 +7,9 @@ A custom Spotify app for Mac made with Electron
 - However, the web player does not, at the time, support viewing friends activities.
 
 ## Instructions
-### (1) Install Nativefier
-Install [Nativefier](https://github.com/nativefier/nativefier) using the [instructions](https://github.com/nativefier/nativefier#installation) in the official repository.
+### (1) Install necessary tools
+- Install [Nativefier](https://github.com/nativefier/nativefier) through the instructions in the official repository [here](https://github.com/nativefier/nativefier#installation).
+- Install [IconSur](https://github.com/rikumi/iconsur) through the instructions in the official repository [here](https://github.com/rikumi/iconsur#installation).
 
 ### (2) Download files
 Download [stylesheet.css](https://github.com/ghzliahlam/spotify-web/blob/main/stylesheet.css), [ad-block.js](https://github.com/ghzliahlam/spotify-web/blob/main/ad-block.js), and [ub-message.js](https://github.com/ghzliahlam/spotify-web/blob/main/ub-message.js), then put them in the home directory.
