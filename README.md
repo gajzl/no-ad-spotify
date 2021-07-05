@@ -12,11 +12,11 @@ A custom Spotify app for Mac made with Electron
 - Install [IconSur](https://github.com/rikumi/iconsur) through the instructions in the official repository [here](https://github.com/rikumi/iconsur#installation).
 
 ### (2) Download files
-Download [stylesheet.css](https://github.com/ghzliahlam/spotify-web/blob/main/stylesheet.css), [ad-block.js](https://github.com/ghzliahlam/spotify-web/blob/main/ad-block.js), and [ub-message.js](https://github.com/ghzliahlam/spotify-web/blob/main/ub-message.js), then put them in the home directory.
+Download [stylesheet.css](https://github.com/ghzliahlam/spotify-web/blob/main/stylesheet.css) and [stylesheet.js](https://github.com/ghzliahlam/spotify-web/blob/main/stylesheet.js), then put them in the home directory.
 
 ### (3) Using Nativefier to create app
 ```zsh
-nativefier --name 'Spotify Web Player' 'open.spotify.com' --inject stylesheet.css --inject ad-block.css --inject ub-message.js --title-bar-style 'hiddenInset' --darwin-dark-mode-support --user-agent firefox --widevine
+nativefier --name 'Spotify Web Player' 'open.spotify.com' --inject stylesheet.css --inject stylesheet.css --title-bar-style 'hiddenInset' --darwin-dark-mode-support --user-agent firefox --widevine
 ```
 
 ### (4) Move app to the Applications folder
