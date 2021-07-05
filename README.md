@@ -16,7 +16,7 @@ Download [stylesheet.css](https://github.com/ghzliahlam/spotify-web/blob/main/st
 
 ### (3) Using Nativefier to create app
 ```zsh
-nativefier --name 'Spotify Web Player' 'open.spotify.com' --inject stylesheet.css --inject stylesheet.css --title-bar-style 'hiddenInset' --darwin-dark-mode-support --user-agent firefox --widevine
+nativefier --name 'Spotify Web Player' 'open.spotify.com' --inject stylesheet.css --inject stylesheet.js --title-bar-style 'hiddenInset' --darwin-dark-mode-support --user-agent firefox --widevine
 ```
 
 ### (4) Move app to the Applications folder
