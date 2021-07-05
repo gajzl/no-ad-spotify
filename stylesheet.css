@@ -1,0 +1,29 @@
+/* Remove Spotify logo on top left */
+div._0ff5ca5c1643860a4cd4aae62b2dce61-scss {
+    display: none;
+}
+
+/* Remove 'Install App' button */
+div._4dfd6d092d9e182093e453606400f1cc-scss {
+    display: none;
+}
+
+/* Removes 'Upgrade' button (if Spotify account isn't premium
+button._3f37264be67c8f40fa9f76449afdb4bd-scss {
+    display: none;
+} */
+
+/* Creates an additional 20px space between 'Home' menu and window buttons */
+div.e628850198dd4b611f8d7ebc057a4734-scss {
+    margin-top: 10px;
+}
+
+/* Make header draggable */
+header {
+    -webkit-app-region: drag;
+}
+
+/* Make any buttons inside the header not draggable */
+header button {
+    -webkit-app-region: no-drag;
+}
