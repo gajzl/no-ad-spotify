@@ -1,9 +1,11 @@
 # Custom Spotify Web Player App for Mac
-A custom Spotify app for Mac made with Electron
+A custom Spotify ([© 2021 Spotify AB](https://www.spotify.com/uk/legal/end-user-agreement/)) app for Mac made with Electron.
 
 ## Pros and Cons of Web Player
+### Pros
 - The official app from Spotify uses [Ogg Vorbis](https://xiph.org/vorbis/) compressed audio format, which is lower quality (even with the higher bit rate) compared to [AAC](https://en.wikipedia.org/wiki/Advanced_Audio_Coding), which is used in the Spotify Web Player.
 - Being an made with Electron, this means that custom `.css` and `.js` files can be injected into the app, opening possibilities for ad-muters and removals of certain elements.
+### Cons
 - However, the web player does not, at the time, support viewing friends activities.
 
 ## Instructions
@@ -11,7 +13,7 @@ A custom Spotify app for Mac made with Electron
 Install [Nativefier](https://github.com/nativefier/nativefier) through the instructions in the official repository [here](https://github.com/nativefier/nativefier#installation).
 
 ### (2) Download files
-Download [stylesheet.css](https://github.com/ghzliahlam/spotify-web/blob/main/stylesheet.css), [stylesheet.js](https://github.com/ghzliahlam/spotify-web/blob/main/stylesheet.js), and [icon.icns](https://github.com/ghzliahlam/spotify-web/blob/main/icon.icns) then put them in the home directory.
+Download [stylesheet.css](https://github.com/ghzliahlam/spotify-web/blob/main/stylesheet.css), [stylesheet.js](https://github.com/ghzliahlam/spotify-web/blob/main/stylesheet.js), and [icon.icns](https://github.com/ghzliahlam/spotify-web/blob/main/icon.icns) (icon belongs to [© Spotify](https://www.spotify.com/uk/legal/end-user-agreement/)) then put them in the home directory.
 
 ### (3) Using Nativefier to create app
 ```zsh
@@ -24,7 +26,7 @@ nativefier --name 'Spotify Web Player' 'open.spotify.com' --inject stylesheet.cs
 - `--darwin-dark-mode-support` enables dark mode support for macOS.
 - `--user-agent firefox` convinces [open.spotify.com](open.spotify.com) that the browser used is Firefox, not Google Chrome.
 - `--widevine` allows the app to play protected content.
-- `--icon icon.icns` uses the official Spotify icon from the Mac Desktop app. If you prefer a macOS Big Sur–styled app icon, you can use [IconSur](https://github.com/rikumi/iconsur) with the instructions [here](https://github.com/ghzliahlam/spotify-web#use-a-macos-big-surstyled-app-icon-instead).
+- `--icon icon.icns` uses the official Spotify icon (belonging to [© Spotify](https://www.spotify.com/uk/legal/end-user-agreement/)) from the Mac Desktop app. If you prefer a macOS Big Sur–styled app icon, you can use [IconSur](https://github.com/rikumi/iconsur) with the instructions [here](https://github.com/ghzliahlam/spotify-web#use-a-macos-big-surstyled-app-icon-instead).
 
 ### (4) Move app to the Applications folder
 Move the created app (by default, put in the home directory) to the `/Applications` folder by using the `mv` command in the terminal:
