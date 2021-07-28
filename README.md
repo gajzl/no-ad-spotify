@@ -6,7 +6,8 @@ A custom Spotify ([© 2021 Spotify AB](https://www.spotify.com/uk/legal/end-user
 - The official app from Spotify uses [Ogg Vorbis](https://xiph.org/vorbis/) compressed audio format, which is lower quality (even with the higher bit rate) compared to [AAC](https://en.wikipedia.org/wiki/Advanced_Audio_Coding), which is used in the Spotify Web Player.
 - Being an made with Electron, this means that custom `.css` and `.js` files can be injected into the app, opening possibilities for ad-muters and removals of certain elements.
 ### Cons
-- However, the web player does not, at the time, support viewing friends activities.
+- The web player does not, at the time, support viewing friends activities.
+- It also lacks the playlist filtering feature.
 
 ## Instructions
 ### (1) Install Nativefier
