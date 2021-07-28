@@ -33,6 +33,25 @@ Move the created app (by default, put in the home directory) to the `/Applicatio
 ```zsh
 mv Spotify\ Web\ Player-darwin-x64 /Applications
 ```
+### (5) Sign Widevine with EVS
+Widevine has to be signed with [EVS](https://github.com/castlabs/electron-releases/wiki/EVS) in order for contents in the app to play. Install EVS by entering this on the command line.
+```zsh
+python3 -m pip install --upgrade castlabs-evs
+```
+You might be prompted to update your version of `pip`. If so, follow the instructions given in the command line.
+After successfully installing EVS, create an account.
+```zsh
+python3 -m castlabs_evs.account signup
+```
+Or, if you already have an account, you can login to it.
+```zsh
+python3 -m castlabs_evs.account reauth
+```
+Sign the application package.
+```zsh
+python3 -m castlabs_evs.vmp sign-pkg /Applications/Spotify\ Web\ Player-darwin-x64
+```
+More details on the usage of EVS [here](https://github.com/castlabs/electron-releases/wiki/EVS).
 
 ### Use a macOS Big Sur–styled app icon instead
 Install [IconSur](https://github.com/rikumi/iconsur) through the instructions in the official repository [here](https://github.com/rikumi/iconsur#installation) and use it to change the app icon using an existing one from the iOS App Store (note that a password will be required):
