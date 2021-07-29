@@ -1,6 +1,8 @@
 # Custom Spotify Web Player App for Mac
 A custom ad-muted Spotify ([© 2021 Spotify AB](https://www.spotify.com/uk/legal/end-user-agreement/)) app for Mac made with Electron.
 
+Ads in this unofficial Spotify app is only ***muted*** and ***not blocked*** due to Spotify's policy of [suspending or terminating accounts detected using ad blockers](https://techcrunch.com/2019/02/08/spotify-will-now-suspend-or-terminate-accounts-it-finds-are-using-ad-blockers/).
+
 ## Pros and Cons of Web Player
 ### Pros
 - The official app from Spotify uses [Ogg Vorbis](https://xiph.org/vorbis/) compressed audio format, which is lower quality (even with the higher bit rate) compared to [AAC](https://en.wikipedia.org/wiki/Advanced_Audio_Coding), which is used in the Spotify Web Player.
