@@ -1,5 +1,5 @@
 # Custom Spotify Web Player App for Mac
-A custom Spotify ([© 2021 Spotify AB](https://www.spotify.com/uk/legal/end-user-agreement/)) app for Mac made with Electron.
+A custom ad-muted Spotify ([© 2021 Spotify AB](https://www.spotify.com/uk/legal/end-user-agreement/)) app for Mac made with Electron.
 
 ## Pros and Cons of Web Player
 ### Pros
