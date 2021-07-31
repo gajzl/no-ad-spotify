@@ -16,7 +16,7 @@ Ads in this unofficial Spotify app is only ***muted*** and ***not blocked*** due
 Install [Nativefier](https://github.com/nativefier/nativefier) through the instructions in the official repository [here](https://github.com/nativefier/nativefier#installation).
 
 ### (2) Download files
-Download [stylesheet.css](https://github.com/ghzliahlam/spotify-web/blob/main/stylesheet.css), [stylesheet.js](https://github.com/ghzliahlam/spotify-web/blob/main/stylesheet.js), and [icon.icns](https://github.com/ghzliahlam/spotify-web/blob/main/icon.icns) (icon belongs to [© Spotify](https://www.spotify.com/uk/legal/end-user-agreement/)) then put them in the home directory.
+Download [stylesheet.css](https://github.com/gajzl/spotify-web/blob/main/stylesheet.css), [stylesheet.js](https://github.com/gajzl/spotify-web/blob/main/stylesheet.js), and [icon.icns](https://github.com/gajzl/spotify-web/blob/main/icon.icns) (icon belongs to [© Spotify](https://www.spotify.com/uk/legal/end-user-agreement/)) then put them in the home directory.
 
 ### (3) Using Nativefier to create app
 ```zsh
@@ -29,7 +29,7 @@ nativefier --name 'Spotify Web Player' 'open.spotify.com' --inject stylesheet.cs
 - `--darwin-dark-mode-support` enables dark mode support for macOS.
 - `--user-agent firefox` convinces [open.spotify.com](open.spotify.com) that the browser used is Firefox, not Google Chrome.
 - `--widevine` allows the app to play protected content.
-- `--icon icon.icns` uses the official Spotify icon (belonging to [© Spotify](https://www.spotify.com/uk/legal/end-user-agreement/)) from the Mac Desktop app. If you prefer a macOS Big Sur–styled app icon, you can use [IconSur](https://github.com/rikumi/iconsur) with the instructions [here](https://github.com/ghzliahlam/spotify-web#use-a-macos-big-surstyled-app-icon-instead).
+- `--icon icon.icns` uses the official Spotify icon (belonging to [© Spotify](https://www.spotify.com/uk/legal/end-user-agreement/)) from the Mac Desktop app. If you prefer a macOS Big Sur–styled app icon, you can use [IconSur](https://github.com/rikumi/iconsur) with the instructions [here](https://github.com/gajzl/spotify-web#use-a-macos-big-surstyled-app-icon-instead).
 
 ### (4) Move app to the Applications folder
 Move the created app (by default, put in the home directory) to the `/Applications` folder by using the `mv` command in the terminal:
