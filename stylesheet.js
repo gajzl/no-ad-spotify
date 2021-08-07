@@ -1,4 +1,4 @@
-/* To prevent 'Unsupported Browser' messages */
+// To prevent 'Unsupported Browser' messages
 
 function dontShowBrowserNoticePage() {
     const browserNotice = document.getElementById('browser-support-notice');
@@ -46,8 +46,8 @@ if (document.readyState === "interactive") {
     nukeWorkers();
 }
 
-/* To mute everytime there's an ad */
-/* Credit to Marc Belmont (https://gist.github.com/marcbelmont/1ea63270867a4e8786dd5f172d8d4489) */
+// To mute everytime there's an ad
+// Credit to Marc Belmont (https://gist.github.com/marcbelmont/1ea63270867a4e8786dd5f172d8d4489)
 
 !async function () {
 
