@@ -1,7 +1,7 @@
 # Custom Ad-Muted Spotify Web Player App for Mac
 A custom ad-muted Spotify ([© 2021 Spotify AB](https://www.spotify.com/uk/legal/end-user-agreement/)) app for Mac made with Electron.
 
-Ads in this unofficial Spotify app is only ***muted*** and ***not blocked*** due to Spotify's policy of [suspending or terminating accounts detected using ad blockers](https://techcrunch.com/2019/02/08/spotify-will-now-suspend-or-terminate-accounts-it-finds-are-using-ad-blockers/).
+Ads in this unofficial Spotify app are only ***muted***, ***not blocked*** due to Spotify's policy of [suspending or terminating accounts caught using ad-blockers](https://techcrunch.com/2019/02/08/spotify-will-now-suspend-or-terminate-accounts-it-finds-are-using-ad-blockers/).
 
 ## Pros and Cons of Web Player
 ### Pros
