@@ -3,6 +3,8 @@ A custom ad-muted Spotify ([© 2021 Spotify AB](https://www.spotify.com/uk/legal
 
 Ads in this unofficial Spotify app are only ***muted***, ***not blocked*** due to Spotify's policy of [suspending or terminating accounts caught using ad-blockers](https://techcrunch.com/2019/02/08/spotify-will-now-suspend-or-terminate-accounts-it-finds-are-using-ad-blockers/).
 
+***Note: I've archived this because I found that [spicetify-cli](https://github.com/khanhas/spicetify-cli) provides what I was looking to achieve with this simple project (except for the AAC audio format).***
+
 ## Pros and Cons of Web Player
 ### Pros
 - The official app from Spotify uses [Ogg Vorbis](https://xiph.org/vorbis/) compressed audio format, which is lower quality (even with the higher bit rate) compared to [AAC](https://en.wikipedia.org/wiki/Advanced_Audio_Coding), which is used in the Spotify Web Player.
